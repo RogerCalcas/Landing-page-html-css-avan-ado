@@ -1,0 +1,116 @@
+html {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-color);
+}
+
+body {
+  background: url(./images/bg-desktop.svg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.layout-page {
+  display: flex;
+  padding: 40px 0;
+  align-items: center;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.layout-image img {
+  height: 650px;
+}
+
+
+.info {
+  max-width: 600px;
+  margin-top: -160px;
+}
+
+.info h2 {
+  font-size: 2.8rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.register {
+  display: inline-block;
+  background-color: var(--text-white);
+  color: var(--primary-purple);
+  padding: 12px 75px;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transform: translateX(10px);
+}
+
+.register:hover {
+  background-color: var(--button-hover);
+  color: var(--text-white);
+
+}
+
+
+.container-pai {
+  position: relative;
+  height: 100px;
+}
+
+
+.redes-sociais {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  display: flex;
+  gap: 10px;
+}
+
+.rede-social a {
+  color: white;
+}
+
+.rede-social a:hover {
+  color: var(--button-hover);
+}
+
+.rede-social {
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.rede-social:hover {
+  border-color: var(--button-hover)
+  
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
